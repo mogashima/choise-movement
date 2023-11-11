@@ -1,0 +1,32 @@
+.cm-div {
+    display: flex;
+    border: 1px solid;
+    border-radius: 1em;
+    padding: 1em;
+
+    .cm-select {
+        width: 50%;
+    }
+
+    .cm-chosen {
+        width: 50%;
+    }
+
+    label {
+        font-weight: 200;
+    }
+
+    ul {
+        padding-inline-start: 0px;
+        height: 200px;
+        overflow-y: scroll;
+
+        li {
+            background: #f4f4f4;
+            margin: 1px;
+            padding: 0.3em;
+            list-style: none;
+            cursor: pointer;
+        }
+    }
+}
